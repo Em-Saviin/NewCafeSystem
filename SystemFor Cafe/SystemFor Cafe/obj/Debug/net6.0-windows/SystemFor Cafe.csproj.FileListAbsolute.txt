@@ -57,3 +57,62 @@ C:\Users\VIIN\Desktop\System Coffee shop\SystemFor Cafe\SystemFor Cafe\bin\Debug
 C:\Users\VIIN\Desktop\System Coffee shop\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
 C:\Users\VIIN\Desktop\System Coffee shop\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\VIIN\Desktop\System Coffee shop\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor Cafe.csproj.CopyComplete
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\SystemFor Cafe.exe
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\SystemFor Cafe.deps.json
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\SystemFor Cafe.runtimeconfig.json
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\SystemFor Cafe.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\SystemFor Cafe.pdb
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\AWSSDK.Core.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\AWSSDK.SecurityToken.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\DnsClient.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\MongoDB.Bson.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\MongoDB.Driver.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\MongoDB.Driver.Core.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\MongoDB.Libmongocrypt.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\SharpCompress.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\Snappier.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\ZstdSharp.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\runtimes\linux\native\libmongocrypt.so
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\runtimes\osx\native\libmongocrypt.dylib
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor Cafe.csproj.AssemblyReference.cache
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor_Cafe.Cafe_System23.resources
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor_Cafe.Form1.resources
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor_Cafe.Login_Form.resources
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor_Cafe.Properties.Resources.resources
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor Cafe.csproj.GenerateResource.cache
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor Cafe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor Cafe.AssemblyInfoInputs.cache
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor Cafe.AssemblyInfo.cs
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor Cafe.csproj.CoreCompileInputs.cache
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor Cafe.csproj.CopyComplete
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor Cafe.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\refint\SystemFor Cafe.dll
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor Cafe.pdb
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\SystemFor Cafe.genruntimeconfig.cache
+D:\Assigment Y4\C#\NewCafeSystem\SystemFor Cafe\SystemFor Cafe\obj\Debug\net6.0-windows\ref\SystemFor Cafe.dll

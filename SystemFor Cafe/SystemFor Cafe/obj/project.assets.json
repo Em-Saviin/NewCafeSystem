@@ -2524,19 +2524,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\VIIN\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VIIN\\Desktop\\System Coffee shop\\SystemFor Cafe\\SystemFor Cafe\\SystemFor Cafe.csproj",
+      "projectUniqueName": "D:\\Assigment Y4\\C#\\NewCafeSystem\\SystemFor Cafe\\SystemFor Cafe\\SystemFor Cafe.csproj",
       "projectName": "SystemFor Cafe",
-      "projectPath": "C:\\Users\\VIIN\\Desktop\\System Coffee shop\\SystemFor Cafe\\SystemFor Cafe\\SystemFor Cafe.csproj",
-      "packagesPath": "C:\\Users\\VIIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VIIN\\Desktop\\System Coffee shop\\SystemFor Cafe\\SystemFor Cafe\\obj\\",
+      "projectPath": "D:\\Assigment Y4\\C#\\NewCafeSystem\\SystemFor Cafe\\SystemFor Cafe\\SystemFor Cafe.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "D:\\Assigment Y4\\C#\\NewCafeSystem\\SystemFor Cafe\\SystemFor Cafe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\VIIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2590,7 +2590,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

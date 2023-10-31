@@ -29,455 +29,445 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.NumericQty = new System.Windows.Forms.NumericUpDown();
-            this.radioCool = new System.Windows.Forms.RadioButton();
-            this.radioHot = new System.Windows.Forms.RadioButton();
-            this.ItemName = new System.Windows.Forms.Label();
-            this.cboItem = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtPrice = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.TableList = new System.Windows.Forms.ListView();
-            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
-            this.txtSubtotal = new System.Windows.Forms.Label();
-            this.txtSub = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtPaid = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.radioDrink = new System.Windows.Forms.RadioButton();
-            this.txtTotal = new System.Windows.Forms.TextBox();
-            this.btnRemove = new System.Windows.Forms.Button();
-            this.MyBoxImg = new System.Windows.Forms.PictureBox();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.btnDone = new System.Windows.Forms.Button();
-            this.txt_Discount = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtBalance = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.NumericQty)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MyBoxImg)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
+            NumericQty = new NumericUpDown();
+            radioCool = new RadioButton();
+            radioHot = new RadioButton();
+            ItemName = new Label();
+            cboItem = new ComboBox();
+            label1 = new Label();
+            txtPrice = new TextBox();
+            label2 = new Label();
+            label3 = new Label();
+            btnAdd = new Button();
+            TableList = new ListView();
+            columnHeader1 = new ColumnHeader();
+            columnHeader2 = new ColumnHeader();
+            columnHeader3 = new ColumnHeader();
+            columnHeader4 = new ColumnHeader();
+            txtSubtotal = new Label();
+            txtSub = new TextBox();
+            label4 = new Label();
+            txtPaid = new TextBox();
+            label6 = new Label();
+            radioDrink = new RadioButton();
+            txtTotal = new TextBox();
+            btnRemove = new Button();
+            MyBoxImg = new PictureBox();
+            btnEdit = new Button();
+            btnDone = new Button();
+            txt_Discount = new TextBox();
+            panel1 = new Panel();
+            pictureBox1 = new PictureBox();
+            label5 = new Label();
+            label7 = new Label();
+            txtBalance = new TextBox();
+            ((System.ComponentModel.ISupportInitialize)NumericQty).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)MyBoxImg).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
             // 
             // NumericQty
             // 
-            this.NumericQty.Location = new System.Drawing.Point(289, 284);
-            this.NumericQty.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.NumericQty.Name = "NumericQty";
-            this.NumericQty.Size = new System.Drawing.Size(137, 27);
-            this.NumericQty.TabIndex = 28;
-            this.NumericQty.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.NumericQty.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NumericQty.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            NumericQty.Location = new Point(289, 284);
+            NumericQty.Margin = new Padding(3, 4, 3, 4);
+            NumericQty.Name = "NumericQty";
+            NumericQty.Size = new Size(137, 27);
+            NumericQty.TabIndex = 28;
+            NumericQty.TextAlign = HorizontalAlignment.Center;
+            NumericQty.ValueChanged += numericUpDown1_ValueChanged;
             // 
             // radioCool
             // 
-            this.radioCool.AutoSize = true;
-            this.radioCool.BackColor = System.Drawing.Color.Transparent;
-            this.radioCool.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.radioCool.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.radioCool.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.radioCool.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.radioCool.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.radioCool.ForeColor = System.Drawing.Color.White;
-            this.radioCool.Location = new System.Drawing.Point(131, 97);
-            this.radioCool.Name = "radioCool";
-            this.radioCool.Size = new System.Drawing.Size(81, 29);
-            this.radioCool.TabIndex = 2;
-            this.radioCool.Text = "COOL";
-            this.radioCool.UseVisualStyleBackColor = false;
-            this.radioCool.CheckedChanged += new System.EventHandler(this.radioCool_CheckedChanged);
+            radioCool.AutoSize = true;
+            radioCool.BackColor = Color.Transparent;
+            radioCool.FlatAppearance.BorderColor = Color.White;
+            radioCool.FlatAppearance.CheckedBackColor = Color.White;
+            radioCool.FlatAppearance.MouseDownBackColor = Color.White;
+            radioCool.FlatAppearance.MouseOverBackColor = Color.White;
+            radioCool.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            radioCool.ForeColor = Color.White;
+            radioCool.Location = new Point(131, 97);
+            radioCool.Name = "radioCool";
+            radioCool.Size = new Size(81, 29);
+            radioCool.TabIndex = 2;
+            radioCool.Text = "COOL";
+            radioCool.UseVisualStyleBackColor = false;
+            radioCool.CheckedChanged += radioCool_CheckedChanged;
             // 
             // radioHot
             // 
-            this.radioHot.AutoSize = true;
-            this.radioHot.BackColor = System.Drawing.Color.Transparent;
-            this.radioHot.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.radioHot.ForeColor = System.Drawing.Color.White;
-            this.radioHot.Location = new System.Drawing.Point(315, 97);
-            this.radioHot.Name = "radioHot";
-            this.radioHot.Size = new System.Drawing.Size(72, 29);
-            this.radioHot.TabIndex = 3;
-            this.radioHot.Text = "HOT";
-            this.radioHot.UseVisualStyleBackColor = false;
-            this.radioHot.CheckedChanged += new System.EventHandler(this.radioHot_CheckedChanged);
+            radioHot.AutoSize = true;
+            radioHot.BackColor = Color.Transparent;
+            radioHot.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            radioHot.ForeColor = Color.White;
+            radioHot.Location = new Point(315, 97);
+            radioHot.Name = "radioHot";
+            radioHot.Size = new Size(71, 29);
+            radioHot.TabIndex = 3;
+            radioHot.Text = "HOT";
+            radioHot.UseVisualStyleBackColor = false;
+            radioHot.CheckedChanged += radioHot_CheckedChanged;
             // 
             // ItemName
             // 
-            this.ItemName.AutoSize = true;
-            this.ItemName.BackColor = System.Drawing.Color.Transparent;
-            this.ItemName.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ItemName.ForeColor = System.Drawing.Color.White;
-            this.ItemName.Location = new System.Drawing.Point(62, 176);
-            this.ItemName.Name = "ItemName";
-            this.ItemName.Size = new System.Drawing.Size(106, 25);
-            this.ItemName.TabIndex = 3;
-            this.ItemName.Text = "ItemName:";
+            ItemName.AutoSize = true;
+            ItemName.BackColor = Color.Transparent;
+            ItemName.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            ItemName.ForeColor = Color.White;
+            ItemName.Location = new Point(62, 176);
+            ItemName.Name = "ItemName";
+            ItemName.Size = new Size(106, 25);
+            ItemName.TabIndex = 3;
+            ItemName.Text = "ItemName:";
             // 
             // cboItem
             // 
-            this.cboItem.FormattingEnabled = true;
-            this.cboItem.Location = new System.Drawing.Point(170, 176);
-            this.cboItem.Name = "cboItem";
-            this.cboItem.Size = new System.Drawing.Size(434, 28);
-            this.cboItem.TabIndex = 4;
-            this.cboItem.Text = " ";
-            this.cboItem.SelectedIndexChanged += new System.EventHandler(this.cboItem_SelectedIndexChanged);
+            cboItem.FormattingEnabled = true;
+            cboItem.Location = new Point(170, 176);
+            cboItem.Name = "cboItem";
+            cboItem.Size = new Size(434, 28);
+            cboItem.TabIndex = 4;
+            cboItem.Text = " ";
+            cboItem.SelectedIndexChanged += cboItem_SelectedIndexChanged;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(118, 259);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 23);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Price";
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(118, 259);
+            label1.Name = "label1";
+            label1.Size = new Size(49, 23);
+            label1.TabIndex = 5;
+            label1.Text = "Price";
             // 
             // txtPrice
             // 
-            this.txtPrice.Location = new System.Drawing.Point(58, 284);
-            this.txtPrice.Name = "txtPrice";
-            this.txtPrice.ReadOnly = true;
-            this.txtPrice.Size = new System.Drawing.Size(153, 27);
-            this.txtPrice.TabIndex = 6;
-            this.txtPrice.Text = "0";
-            this.txtPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtPrice.TextChanged += new System.EventHandler(this.txtPrice_TextChanged);
+            txtPrice.Location = new Point(58, 284);
+            txtPrice.Name = "txtPrice";
+            txtPrice.ReadOnly = true;
+            txtPrice.Size = new Size(153, 27);
+            txtPrice.TabIndex = 6;
+            txtPrice.Text = "0";
+            txtPrice.TextAlign = HorizontalAlignment.Center;
+            txtPrice.TextChanged += txtPrice_TextChanged;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(330, 257);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 23);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Qty";
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(330, 257);
+            label2.Name = "label2";
+            label2.Size = new Size(39, 23);
+            label2.TabIndex = 7;
+            label2.Text = "Qty";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(534, 259);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 23);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Total";
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(534, 259);
+            label3.Name = "label3";
+            label3.Size = new Size(49, 23);
+            label3.TabIndex = 9;
+            label3.Text = "Total";
             // 
             // btnAdd
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.Cyan;
-            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAdd.ForeColor = System.Drawing.Color.Black;
-            this.btnAdd.Location = new System.Drawing.Point(321, 339);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(89, 33);
-            this.btnAdd.TabIndex = 11;
-            this.btnAdd.Text = "ADD ITEM";
-            this.btnAdd.UseVisualStyleBackColor = false;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            btnAdd.BackColor = Color.Cyan;
+            btnAdd.Font = new Font("Segoe UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point);
+            btnAdd.ForeColor = Color.Black;
+            btnAdd.Location = new Point(321, 339);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(89, 33);
+            btnAdd.TabIndex = 11;
+            btnAdd.Text = "ADD ITEM";
+            btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.Click += btnAdd_Click;
             // 
             // TableList
             // 
-            this.TableList.BackColor = System.Drawing.Color.White;
-            this.TableList.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TableList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4});
-            this.TableList.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.TableList.ForeColor = System.Drawing.Color.Black;
-            this.TableList.Location = new System.Drawing.Point(62, 377);
-            this.TableList.Name = "TableList";
-            this.TableList.Size = new System.Drawing.Size(731, 220);
-            this.TableList.TabIndex = 12;
-            this.TableList.UseCompatibleStateImageBehavior = false;
-            this.TableList.View = System.Windows.Forms.View.Details;
-            this.TableList.SelectedIndexChanged += new System.EventHandler(this.TableList_SelectedIndexChanged);
+            TableList.BackColor = Color.White;
+            TableList.BorderStyle = BorderStyle.None;
+            TableList.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
+            TableList.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            TableList.ForeColor = Color.Black;
+            TableList.Location = new Point(62, 377);
+            TableList.Name = "TableList";
+            TableList.Size = new Size(731, 220);
+            TableList.TabIndex = 12;
+            TableList.UseCompatibleStateImageBehavior = false;
+            TableList.View = View.Details;
+            TableList.SelectedIndexChanged += TableList_SelectedIndexChanged;
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Item Name";
-            this.columnHeader1.Width = 250;
+            columnHeader1.Text = "Item Name";
+            columnHeader1.Width = 250;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Qty";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 150;
+            columnHeader2.Text = "Qty";
+            columnHeader2.TextAlign = HorizontalAlignment.Center;
+            columnHeader2.Width = 150;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Price";
-            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 170;
+            columnHeader3.Text = "Price";
+            columnHeader3.TextAlign = HorizontalAlignment.Center;
+            columnHeader3.Width = 170;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Total";
-            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader4.Width = 170;
+            columnHeader4.Text = "Total";
+            columnHeader4.TextAlign = HorizontalAlignment.Center;
+            columnHeader4.Width = 170;
             // 
             // txtSubtotal
             // 
-            this.txtSubtotal.AutoSize = true;
-            this.txtSubtotal.BackColor = System.Drawing.Color.Transparent;
-            this.txtSubtotal.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtSubtotal.ForeColor = System.Drawing.Color.White;
-            this.txtSubtotal.Location = new System.Drawing.Point(43, 605);
-            this.txtSubtotal.Name = "txtSubtotal";
-            this.txtSubtotal.Size = new System.Drawing.Size(71, 20);
-            this.txtSubtotal.TabIndex = 13;
-            this.txtSubtotal.Text = "SubTotal";
+            txtSubtotal.AutoSize = true;
+            txtSubtotal.BackColor = Color.Transparent;
+            txtSubtotal.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            txtSubtotal.ForeColor = Color.White;
+            txtSubtotal.Location = new Point(43, 605);
+            txtSubtotal.Name = "txtSubtotal";
+            txtSubtotal.Size = new Size(70, 20);
+            txtSubtotal.TabIndex = 13;
+            txtSubtotal.Text = "SubTotal";
             // 
             // txtSub
             // 
-            this.txtSub.Location = new System.Drawing.Point(118, 603);
-            this.txtSub.Name = "txtSub";
-            this.txtSub.ReadOnly = true;
-            this.txtSub.Size = new System.Drawing.Size(125, 27);
-            this.txtSub.TabIndex = 14;
-            this.txtSub.Text = "0";
+            txtSub.Location = new Point(118, 603);
+            txtSub.Name = "txtSub";
+            txtSub.ReadOnly = true;
+            txtSub.Size = new Size(125, 27);
+            txtSub.TabIndex = 14;
+            txtSub.Text = "0";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(296, 604);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 20);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Discount";
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(296, 604);
+            label4.Name = "label4";
+            label4.Size = new Size(71, 20);
+            label4.TabIndex = 15;
+            label4.Text = "Discount";
             // 
             // txtPaid
             // 
-            this.txtPaid.ForeColor = System.Drawing.Color.Red;
-            this.txtPaid.Location = new System.Drawing.Point(629, 603);
-            this.txtPaid.Name = "txtPaid";
-            this.txtPaid.ReadOnly = true;
-            this.txtPaid.Size = new System.Drawing.Size(164, 27);
-            this.txtPaid.TabIndex = 20;
-            this.txtPaid.Text = "0";
-            this.txtPaid.TextChanged += new System.EventHandler(this.txtPaid_TextChanged);
+            txtPaid.ForeColor = Color.Red;
+            txtPaid.Location = new Point(629, 603);
+            txtPaid.Name = "txtPaid";
+            txtPaid.ReadOnly = true;
+            txtPaid.Size = new Size(164, 27);
+            txtPaid.TabIndex = 20;
+            txtPaid.Text = "0";
+            txtPaid.TextChanged += txtPaid_TextChanged;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(566, 605);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 20);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "Paid";
+            label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.ForeColor = Color.White;
+            label6.Location = new Point(566, 605);
+            label6.Name = "label6";
+            label6.Size = new Size(39, 20);
+            label6.TabIndex = 19;
+            label6.Text = "Paid";
             // 
             // radioDrink
             // 
-            this.radioDrink.AutoSize = true;
-            this.radioDrink.BackColor = System.Drawing.Color.Transparent;
-            this.radioDrink.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.radioDrink.ForeColor = System.Drawing.Color.White;
-            this.radioDrink.Location = new System.Drawing.Point(488, 97);
-            this.radioDrink.Name = "radioDrink";
-            this.radioDrink.Size = new System.Drawing.Size(79, 29);
-            this.radioDrink.TabIndex = 4;
-            this.radioDrink.Text = "Drink";
-            this.radioDrink.UseVisualStyleBackColor = false;
-            this.radioDrink.CheckedChanged += new System.EventHandler(this.Drink_CheckedChanged);
+            radioDrink.AutoSize = true;
+            radioDrink.BackColor = Color.Transparent;
+            radioDrink.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            radioDrink.ForeColor = Color.White;
+            radioDrink.Location = new Point(488, 97);
+            radioDrink.Name = "radioDrink";
+            radioDrink.Size = new Size(79, 29);
+            radioDrink.TabIndex = 4;
+            radioDrink.Text = "Drink";
+            radioDrink.UseVisualStyleBackColor = false;
+            radioDrink.CheckedChanged += Drink_CheckedChanged;
             // 
             // txtTotal
             // 
-            this.txtTotal.Location = new System.Drawing.Point(488, 283);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtTotal.Name = "txtTotal";
-            this.txtTotal.ReadOnly = true;
-            this.txtTotal.Size = new System.Drawing.Size(140, 27);
-            this.txtTotal.TabIndex = 26;
-            this.txtTotal.Text = "0";
-            this.txtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            txtTotal.Location = new Point(488, 283);
+            txtTotal.Margin = new Padding(3, 4, 3, 4);
+            txtTotal.Name = "txtTotal";
+            txtTotal.ReadOnly = true;
+            txtTotal.Size = new Size(140, 27);
+            txtTotal.TabIndex = 26;
+            txtTotal.Text = "0";
+            txtTotal.TextAlign = HorizontalAlignment.Center;
             // 
             // btnRemove
             // 
-            this.btnRemove.BackColor = System.Drawing.Color.Red;
-            this.btnRemove.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRemove.Location = new System.Drawing.Point(528, 340);
-            this.btnRemove.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(111, 33);
-            this.btnRemove.TabIndex = 31;
-            this.btnRemove.Text = "REMOVE ITEM";
-            this.btnRemove.UseVisualStyleBackColor = false;
-            this.btnRemove.Visible = false;
-            this.btnRemove.Click += new System.EventHandler(this.button1_Click);
+            btnRemove.BackColor = Color.Red;
+            btnRemove.Font = new Font("Segoe UI", 7.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnRemove.Location = new Point(528, 340);
+            btnRemove.Margin = new Padding(3, 4, 3, 4);
+            btnRemove.Name = "btnRemove";
+            btnRemove.Size = new Size(111, 33);
+            btnRemove.TabIndex = 31;
+            btnRemove.Text = "REMOVE ITEM";
+            btnRemove.UseVisualStyleBackColor = false;
+            btnRemove.Visible = false;
+            btnRemove.Click += button1_Click;
             // 
             // MyBoxImg
             // 
-            this.MyBoxImg.BackColor = System.Drawing.Color.Transparent;
-            this.MyBoxImg.ErrorImage = null;
-            this.MyBoxImg.Location = new System.Drawing.Point(635, 119);
-            this.MyBoxImg.Name = "MyBoxImg";
-            this.MyBoxImg.Size = new System.Drawing.Size(159, 199);
-            this.MyBoxImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.MyBoxImg.TabIndex = 32;
-            this.MyBoxImg.TabStop = false;
+            MyBoxImg.BackColor = Color.Transparent;
+            MyBoxImg.ErrorImage = null;
+            MyBoxImg.Location = new Point(635, 119);
+            MyBoxImg.Name = "MyBoxImg";
+            MyBoxImg.Size = new Size(159, 199);
+            MyBoxImg.SizeMode = PictureBoxSizeMode.StretchImage;
+            MyBoxImg.TabIndex = 32;
+            MyBoxImg.TabStop = false;
             // 
             // btnEdit
             // 
-            this.btnEdit.BackColor = System.Drawing.Color.SandyBrown;
-            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.Location = new System.Drawing.Point(417, 340);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(104, 32);
-            this.btnEdit.TabIndex = 33;
-            this.btnEdit.Text = "EDIT ITEM";
-            this.btnEdit.UseVisualStyleBackColor = false;
-            this.btnEdit.Visible = false;
-            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            btnEdit.BackColor = Color.SandyBrown;
+            btnEdit.Font = new Font("Segoe UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point);
+            btnEdit.Location = new Point(417, 340);
+            btnEdit.Name = "btnEdit";
+            btnEdit.Size = new Size(104, 32);
+            btnEdit.TabIndex = 33;
+            btnEdit.Text = "EDIT ITEM";
+            btnEdit.UseVisualStyleBackColor = false;
+            btnEdit.Visible = false;
+            btnEdit.Click += btnEdit_Click;
             // 
             // btnDone
             // 
-            this.btnDone.BackColor = System.Drawing.Color.Lime;
-            this.btnDone.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnDone.Location = new System.Drawing.Point(645, 340);
-            this.btnDone.Name = "btnDone";
-            this.btnDone.Size = new System.Drawing.Size(90, 32);
-            this.btnDone.TabIndex = 36;
-            this.btnDone.Text = "DONE";
-            this.btnDone.UseVisualStyleBackColor = false;
-            this.btnDone.Visible = false;
-            this.btnDone.Click += new System.EventHandler(this.btnDone_Click);
+            btnDone.BackColor = Color.Lime;
+            btnDone.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnDone.Location = new Point(645, 340);
+            btnDone.Name = "btnDone";
+            btnDone.Size = new Size(90, 32);
+            btnDone.TabIndex = 36;
+            btnDone.Text = "DONE";
+            btnDone.UseVisualStyleBackColor = false;
+            btnDone.Visible = false;
+            btnDone.Click += btnDone_Click;
             // 
             // txt_Discount
             // 
-            this.txt_Discount.Location = new System.Drawing.Point(370, 603);
-            this.txt_Discount.Name = "txt_Discount";
-            this.txt_Discount.Size = new System.Drawing.Size(138, 27);
-            this.txt_Discount.TabIndex = 37;
-            this.txt_Discount.Text = "0";
-            this.txt_Discount.TextChanged += new System.EventHandler(this.txt_Discount_TextChanged);
+            txt_Discount.Location = new Point(370, 603);
+            txt_Discount.Name = "txt_Discount";
+            txt_Discount.Size = new Size(138, 27);
+            txt_Discount.TabIndex = 37;
+            txt_Discount.Text = "0";
+            txt_Discount.TextChanged += txt_Discount_TextChanged;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1103, 49);
-            this.panel1.TabIndex = 38;
+            panel1.BackColor = SystemColors.MenuHighlight;
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1103, 49);
+            panel1.TabIndex = 38;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(800, 415);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(61, 80);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 39;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            pictureBox1.ErrorImage = (Image)resources.GetObject("pictureBox1.ErrorImage");
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(800, 415);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(61, 80);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 39;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click_1;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(805, 499);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 28);
-            this.label5.TabIndex = 40;
-            this.label5.Text = "SAVE";
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(805, 499);
+            label5.Name = "label5";
+            label5.Size = new Size(60, 28);
+            label5.TabIndex = 40;
+            label5.Text = "SAVE";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(566, 639);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(63, 20);
-            this.label7.TabIndex = 41;
-            this.label7.Text = "Balance";
+            label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.ForeColor = Color.White;
+            label7.Location = new Point(566, 639);
+            label7.Name = "label7";
+            label7.Size = new Size(63, 20);
+            label7.TabIndex = 41;
+            label7.Text = "Balance";
             // 
             // txtBalance
             // 
-            this.txtBalance.ForeColor = System.Drawing.Color.Red;
-            this.txtBalance.Location = new System.Drawing.Point(630, 636);
-            this.txtBalance.Name = "txtBalance";
-            this.txtBalance.ReadOnly = true;
-            this.txtBalance.Size = new System.Drawing.Size(164, 27);
-            this.txtBalance.TabIndex = 42;
-            this.txtBalance.Text = "0";
+            txtBalance.ForeColor = Color.Red;
+            txtBalance.Location = new Point(630, 636);
+            txtBalance.Name = "txtBalance";
+            txtBalance.ReadOnly = true;
+            txtBalance.Size = new Size(164, 27);
+            txtBalance.TabIndex = 42;
+            txtBalance.Text = "0";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1103, 668);
-            this.Controls.Add(this.txtBalance);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.txt_Discount);
-            this.Controls.Add(this.btnDone);
-            this.Controls.Add(this.btnEdit);
-            this.Controls.Add(this.MyBoxImg);
-            this.Controls.Add(this.btnRemove);
-            this.Controls.Add(this.NumericQty);
-            this.Controls.Add(this.txtTotal);
-            this.Controls.Add(this.radioDrink);
-            this.Controls.Add(this.txtPaid);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtSub);
-            this.Controls.Add(this.txtSubtotal);
-            this.Controls.Add(this.TableList);
-            this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtPrice);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.cboItem);
-            this.Controls.Add(this.ItemName);
-            this.Controls.Add(this.radioHot);
-            this.Controls.Add(this.radioCool);
-            this.MaximumSize = new System.Drawing.Size(1521, 715);
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.NumericQty)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MyBoxImg)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(1103, 668);
+            Controls.Add(txtBalance);
+            Controls.Add(label7);
+            Controls.Add(label5);
+            Controls.Add(pictureBox1);
+            Controls.Add(panel1);
+            Controls.Add(txt_Discount);
+            Controls.Add(btnDone);
+            Controls.Add(btnEdit);
+            Controls.Add(MyBoxImg);
+            Controls.Add(btnRemove);
+            Controls.Add(NumericQty);
+            Controls.Add(txtTotal);
+            Controls.Add(radioDrink);
+            Controls.Add(txtPaid);
+            Controls.Add(label6);
+            Controls.Add(label4);
+            Controls.Add(txtSub);
+            Controls.Add(txtSubtotal);
+            Controls.Add(TableList);
+            Controls.Add(btnAdd);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(txtPrice);
+            Controls.Add(label1);
+            Controls.Add(cboItem);
+            Controls.Add(ItemName);
+            Controls.Add(radioHot);
+            Controls.Add(radioCool);
+            MaximumSize = new Size(1521, 715);
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Form1";
+            Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)NumericQty).EndInit();
+            ((System.ComponentModel.ISupportInitialize)MyBoxImg).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
